@@ -2,13 +2,13 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "62xY3C5FXgb":
+      case "6owECY5Ra4G":
         Script1();
         break;
-      case "5cJxxy1Zwk4":
+      case "6AtRZHJmppM":
         Script2();
         break;
-      case "5hxm1mDjb6V":
+      case "5dTRo418SAr":
         Script3();
         break;
   }
@@ -28,7 +28,7 @@ function Script2()
   var player = GetPlayer();
 
 var d = new Date();
-var o = {year:'numeric', month:'2-digit', day:'2-digit', '};
+var o = {year:'numeric', month:'2-digit', day:'2-digit'};
 var h = {hour:'2-digit', minute:'2-digit', second:'2-digit'};
 
 
