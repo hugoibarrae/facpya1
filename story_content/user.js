@@ -2,13 +2,13 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6owECY5Ra4G":
+      case "5o3D8XoqdbU":
         Script1();
         break;
-      case "6AtRZHJmppM":
+      case "66lqb6YV64B":
         Script2();
         break;
-      case "5dTRo418SAr":
+      case "6Pzl5JmhLov":
         Script3();
         break;
   }
@@ -28,8 +28,7 @@ function Script2()
   var player = GetPlayer();
 
 var d = new Date();
-var o = {year:'numeric', month:'2-digit', day:'2-digit'};
-var h = {hour:'2-digit', minute:'2-digit', second:'2-digit'};
+var o = {year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit'};
 
 
  
@@ -42,7 +41,7 @@ WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwtWN1vcoTHZ1HbK514EtYX-f
 storyline =
 {
   "FECHA" : d.toLocaleDateString('en-US', o), //STORE DATE
-"HORA": d.toLocalDateString('en-US',h),
+
  "NOMBRE" : player.GetVar("etxtnombre"),
  "MATRICULA" : player.GetVar("etxtmatri"),
  "GRUPO" : player.GetVar("etxtgrupo"),
